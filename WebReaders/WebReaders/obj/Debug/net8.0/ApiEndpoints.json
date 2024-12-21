@@ -1,0 +1,133 @@
+[
+  {
+    "ContainingType": "WebReaders.Controllers.ReaderController",
+    "Method": "PostReader",
+    "RelativePath": "api/Reader/ADDReader",
+    "HttpMethod": "POST",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "newReader",
+        "Type": "WebReaders.Model.Readers",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "WebReaders.Controllers.ReaderController",
+    "Method": "DeleteReader",
+    "RelativePath": "api/Reader/DeleteReader/{Id}",
+    "HttpMethod": "DELETE",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "Id",
+        "Type": "System.Int32",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "WebReaders.Controllers.ReaderController",
+    "Method": "GetAllReaders",
+    "RelativePath": "api/Reader/getAllReaders",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "WebReaders.Controllers.ReaderController",
+    "Method": "GetReaderId",
+    "RelativePath": "api/Reader/getReader/{Id}",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "Id",
+        "Type": "System.Int32",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "WebReaders.Controllers.ReaderController",
+    "Method": "GetReaderPagination",
+    "RelativePath": "api/Reader/Readers/Pagination",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "Name",
+        "Type": "System.String",
+        "IsRequired": false
+      },
+      {
+        "Name": "FName",
+        "Type": "System.String",
+        "IsRequired": false
+      },
+      {
+        "Name": "Contact",
+        "Type": "System.String",
+        "IsRequired": false
+      },
+      {
+        "Name": "Birth_Day",
+        "Type": "System.Nullable\u00601[[System.DateTime, System.Private.CoreLib, Version=8.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e]]",
+        "IsRequired": false
+      },
+      {
+        "Name": "page",
+        "Type": "System.Int32",
+        "IsRequired": false
+      },
+      {
+        "Name": "pageSize",
+        "Type": "System.Int32",
+        "IsRequired": false
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "WebReaders.Controllers.ReaderController",
+    "Method": "PutReader",
+    "RelativePath": "api/Reader/UpdateReader",
+    "HttpMethod": "PUT",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "UpdateReader",
+        "Type": "WebReaders.Model.Readers",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "WebReaders.Controllers.ReaderController",
+    "Method": "GetReadersFilter",
+    "RelativePath": "Readers/Filter",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "DateRegist",
+        "Type": "System.Nullable\u00601[[System.DateTime, System.Private.CoreLib, Version=8.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e]]",
+        "IsRequired": false
+      }
+    ],
+    "ReturnTypes": []
+  }
+]

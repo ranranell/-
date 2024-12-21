@@ -1,0 +1,58 @@
+{
+  "Version": 1,
+  "Hash": "w1jHjv+LgW2bTKkAGXRQIKMaA7jVSUKifKpC1Idx1ew=",
+  "Source": "WebImage",
+  "BasePath": "_content/WebImage",
+  "Mode": "Default",
+  "ManifestType": "Build",
+  "ReferencedProjectsConfiguration": [],
+  "DiscoveryPatterns": [
+    {
+      "Name": "WebImage\\wwwroot",
+      "Source": "WebImage",
+      "ContentRoot": "C:\\Users\\User\\Desktop\\WebImage\\WebImage\\wwwroot\\",
+      "BasePath": "_content/WebImage",
+      "Pattern": "**"
+    }
+  ],
+  "Assets": [
+    {
+      "Identity": "C:\\Users\\User\\Desktop\\WebImage\\WebImage\\wwwroot\\uploads\\i.webp",
+      "SourceId": "WebImage",
+      "SourceType": "Discovered",
+      "ContentRoot": "C:\\Users\\User\\Desktop\\WebImage\\WebImage\\wwwroot\\",
+      "BasePath": "_content/WebImage",
+      "RelativePath": "uploads/i.webp",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "AssetMergeBehavior": "PreferTarget",
+      "AssetMergeSource": "",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\uploads\\i.webp"
+    },
+    {
+      "Identity": "C:\\Users\\User\\Desktop\\WebImage\\WebImage\\wwwroot\\uploads\\Зарипов чм.docx",
+      "SourceId": "WebImage",
+      "SourceType": "Discovered",
+      "ContentRoot": "C:\\Users\\User\\Desktop\\WebImage\\WebImage\\wwwroot\\",
+      "BasePath": "_content/WebImage",
+      "RelativePath": "uploads/Зарипов чм.docx",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "AssetMergeBehavior": "PreferTarget",
+      "AssetMergeSource": "",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\uploads\\Зарипов чм.docx"
+    }
+  ]
+}

@@ -1,0 +1,29 @@
+{
+  "Files": [
+    {
+      "Id": "C:\\Users\\User\\Desktop\\WebImage\\WebImage\\wwwroot\\uploads\\i.webp",
+      "PackagePath": "staticwebassets\\uploads\\i.webp"
+    },
+    {
+      "Id": "C:\\Users\\User\\Desktop\\WebImage\\WebImage\\wwwroot\\uploads\\Зарипов чм.docx",
+      "PackagePath": "staticwebassets\\uploads\\Зарипов чм.docx"
+    },
+    {
+      "Id": "obj\\Debug\\net8.0\\staticwebassets\\msbuild.WebImage.Microsoft.AspNetCore.StaticWebAssets.props",
+      "PackagePath": "build\\Microsoft.AspNetCore.StaticWebAssets.props"
+    },
+    {
+      "Id": "obj\\Debug\\net8.0\\staticwebassets\\msbuild.build.WebImage.props",
+      "PackagePath": "build\\WebImage.props"
+    },
+    {
+      "Id": "obj\\Debug\\net8.0\\staticwebassets\\msbuild.buildMultiTargeting.WebImage.props",
+      "PackagePath": "buildMultiTargeting\\WebImage.props"
+    },
+    {
+      "Id": "obj\\Debug\\net8.0\\staticwebassets\\msbuild.buildTransitive.WebImage.props",
+      "PackagePath": "buildTransitive\\WebImage.props"
+    }
+  ],
+  "ElementsToRemove": []
+}
